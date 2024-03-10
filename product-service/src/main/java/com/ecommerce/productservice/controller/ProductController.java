@@ -12,6 +12,7 @@ import java.util.*;
 @RequestMapping("/api/product")
 @RequiredArgsConstructor
 public class ProductController {
+    //product service end points
     public final ProductService productService;
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
